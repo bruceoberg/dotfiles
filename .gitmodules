@@ -10,3 +10,6 @@
 [submodule ".tmux"]
   path = vendor/.tmux
   url = https://github.com/gpakosz/.tmux.git
+[submodule "vendor/rename"]
+	path = vendor/rename
+	url = https://github.com/ap/rename.git
