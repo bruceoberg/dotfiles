@@ -114,7 +114,7 @@ function gra() {
     return 1;
   fi
   local repo=$(gr show -n origin | perl -ne '/Fetch URL: .*github\.com[:\/].*\/(.*)/ && print $1')
-  gr add "$1" "git://github.com/$1/$repo"
+  gr add "$1" "http://github.com/$1/$repo"
 }
 
 # GitHub URL for current repo.
