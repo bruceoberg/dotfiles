@@ -154,14 +154,14 @@ function other_stuff() {
       sudo make install
     )
   fi
-#   # Install Rename
-#   if [[ ! "$(type -P rename)" ]]; then
-#     e_header "Installing Rename"
-#     (
-#       cd $DOTFILES/vendor/rename &&
-#       sudo make install
-#     )
-#   fi
+  # Install Rename
+  if [[ ! "$(type -P rename)" ]]; then
+    e_header "Installing Rename"
+    (
+      cd $DOTFILES/vendor/rename &&
+      cp rename $DOTFILES/bin
+    )
+  fi
   # Install misc bins from zip file.
 #   install_from_zip ngrok 'https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip'
 #   install_from_zip terraform 'https://releases.hashicorp.com/terraform/0.9.2/terraform_0.9.2_linux_amd64.zip'
