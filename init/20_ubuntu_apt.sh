@@ -32,7 +32,7 @@ apt_packages+=(
   curl
 #   docker.io
 #   docker-compose
-  git-core
+#   git-core
 #   groff
 #   hollywood
 #   htop
@@ -42,7 +42,7 @@ apt_packages+=(
 #   mercurial
 #   nmap
 #   postgresql
-  python-pip
+  python3-pip
 #   silversearcher-ag
 #   sl
 #   telnet
