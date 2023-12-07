@@ -1,6 +1,16 @@
-# Dotfiles
+# Bruce Oberg's Dotfiles
 
-My OSX / Ubuntu dotfiles.
+OSX / Ubuntu dotfiles for Bruce Oberg.
+
+Forked from [Ben Alman's project](https://github.com/cowboy/dotfiles), trimmed down for my use. Specifically:
+
+- Micro instead of vim as the default editor.
+- Many packages disabled (by moving to the `/disabled` folder):
+  - Ruby
+  - Node
+  - Tmux
+  - Powerline
+- Different set of fonts.
 
 ## About this project
 
@@ -31,6 +41,7 @@ On subsequent runs, step 1 is skipped, step 2 just updates the already-existing 
 * The `/bin` directory contains executable shell scripts (including the [dotfiles][dotfiles] script) and symlinks to executable shell scripts. This directory is added to the path.
 * The `/caches` directory contains cached files, used by some scripts or functions.
 * The `/conf` directory just exists. If a config file doesn't **need** to go in `~/`, reference it from the `/conf` directory.
+* The `/disabled` directory contains disabled files, mirroring the top level directory structure.
 * The `/source` directory contains files that are sourced whenever a new shell is opened (in alphanumeric order, hence the funky names).
 * The `/test` directory contains unit tests for especially complicated bash functions.
 * The `/vendor` directory contains third-party libraries.

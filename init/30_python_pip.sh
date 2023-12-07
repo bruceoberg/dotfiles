@@ -6,9 +6,72 @@ for pip_cmd in pip2 pip FAIL; do [[ "$(which $pip_cmd)" ]] && break; done
 
 # Add pip packages
 pip_packages=(
-  netifaces
-  psutil
-  tmuxp
+aenum
+appdirs
+arabic-reshaper
+arrow
+asttokens
+Babel
+backcall
+certifi
+charset-normalizer
+colorama
+comm
+dateutils
+debugpy
+decorator
+defusedxml
+docopt
+et-xmlfile
+executing
+facepy
+fonttools
+fpdf2
+future
+icecream
+idna
+ipykernel
+ipython
+jedi
+jupyter_client
+jupyter_core
+lxml
+matplotlib-inline
+nest-asyncio
+openpyxl
+packaging
+parso
+pickleshare
+Pillow
+pipreqs
+platformdirs
+prompt-toolkit
+psutil
+pure-eval
+pyaml
+Pygments
+PySnooper
+python-bidi
+python-dateutil
+python-docx
+pytz
+pywin32
+PyYAML
+pyzmq
+reportlab
+requests
+six
+stack-data
+svg.path
+tornado
+traitlets
+types-python-dateutil
+typing_extensions
+unicategories
+urllib3
+userpaths
+wcwidth
+yarg
 )
 
 # is_osx || pip_packages+=(powerline-status)

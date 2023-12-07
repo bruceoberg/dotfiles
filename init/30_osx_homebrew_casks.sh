@@ -18,70 +18,12 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 # Homebrew casks
 casks=(
   # Applications
-  a-better-finder-rename
-  alfred
-  android-platform-tools
-  bartender
-  battle-net
-  bettertouchtool
   betterzip
-  caprine
-  charles
-  chromium
-  chronosync
-  controllermate
-  datagrip
-  docker
-  dropbox
-  fastscripts
   firefox
-  gimp
-  gyazo
   hex-fiend
-  iterm2
-  karabiner-elements
-  licecap
-  macvim
-  microsoft-remote-desktop-beta
-  midi-monitor
-  moom
-  ngrok
-  numi
-  omnidisksweeper
-  postman
-  reaper
-  robo-3t
-  scroll-reverser
-  skype
-  slack
   sourcetree
-  spotify
-  steam
-  the-unarchiver
-  tower
-  vagrant
-  virtualbox
   visual-studio-code
   vlc
-  xscreensaver
-  zeplin
-  # Quick Look plugins
-  qlcolorcode
-  qlmarkdown
-  qlprettypatch
-  qlstephen
-  quicklook-csv
-  quicklook-json
-  quicknfo
-  suspicious-package
-  webpquicklook
-  # Drivers
-  sonos
-  xbox360-controller-driver-unofficial
-  # Fonts
-  font-m-plus
-  font-mplus-nerd-font
-  font-mplus-nerd-font-mono
 )
 
 # Install Homebrew casks.
