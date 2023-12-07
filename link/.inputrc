@@ -1,10 +1,5 @@
-set editing-mode vi
-
-# COMMAND MODE
-set keymap vi-command
-
-# INSERT MODE
-set keymap vi-insert
+# quiet please
+set bell-style none
 
 # Up/down arrows search history
 "\e[A": history-search-backward
