@@ -57,7 +57,7 @@ apt_packages+=(
 add_ppa ppa:ansible/ansible
 apt_packages+=(ansible)
 
-if is_ubuntu_desktop; then
+# if is_ubuntu_desktop; then
 #   # https://www.techrepublic.com/article/how-to-connect-a-linux-machine-to-google-cloud-print/
 #   # sudo /usr/share/cloudprint-cups/setupcloudprint.py
 #   add_ppa ppa:simon-cadman/niftyrepo
@@ -143,7 +143,7 @@ if is_ubuntu_desktop; then
   #   echo steam steam/question select I AGREE | sudo debconf-set-selections
   #   echo steam steam/license note | sudo debconf-set-selections
   # }
-fi
+# fi
 
 function other_stuff() {
   # Install Git Extras
