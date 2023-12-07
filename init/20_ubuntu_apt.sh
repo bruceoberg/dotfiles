@@ -51,6 +51,7 @@ apt_packages+=(
 
 # new for bruceoberg
   micro
+  gh
 )
 
 # https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-16-04
