@@ -32,7 +32,7 @@ apt_packages+=(
   curl
 #   docker.io
 #   docker-compose
-  git-core
+#   git-core
 #   groff
 #   hollywood
 #   htop
@@ -42,7 +42,7 @@ apt_packages+=(
 #   mercurial
 #   nmap
 #   postgresql
-  python-pip
+  python3-pip
 #   silversearcher-ag
 #   sl
 #   telnet
@@ -51,13 +51,14 @@ apt_packages+=(
 
 # new for bruceoberg
   micro
+  gh
 )
 
 # https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-16-04
 add_ppa ppa:ansible/ansible
 apt_packages+=(ansible)
 
-if is_ubuntu_desktop; then
+# if is_ubuntu_desktop; then
 #   # https://www.techrepublic.com/article/how-to-connect-a-linux-machine-to-google-cloud-print/
 #   # sudo /usr/share/cloudprint-cups/setupcloudprint.py
 #   add_ppa ppa:simon-cadman/niftyrepo
@@ -143,7 +144,7 @@ if is_ubuntu_desktop; then
   #   echo steam steam/question select I AGREE | sudo debconf-set-selections
   #   echo steam steam/license note | sudo debconf-set-selections
   # }
-fi
+# fi
 
 function other_stuff() {
   # Install Git Extras
