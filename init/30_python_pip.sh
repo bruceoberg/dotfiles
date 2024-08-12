@@ -1,5 +1,5 @@
 # Homebrew installs python2 pip as "pip2"
-for pip_cmd in pip pip2 FAIL; do [[ "$(which $pip_cmd)" ]] && break; done
+for pip_cmd in pip pip3 FAIL; do [[ "$(which $pip_cmd)" ]] && break; done
 
 # Exit if pip is not installed.
 [[ $pip_cmd == FAIL ]] && e_error "Pip needs to be installed." && return 1
